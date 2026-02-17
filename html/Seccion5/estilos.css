@@ -1,0 +1,15 @@
+h1{
+    color: brown;
+    font-size: 120px;
+}
+
+/* En este hago referencia al color del link pero cuando ese link no se ha visitado  */
+a:link{
+    color:darkgreen;
+    font-size: 90px;
+}
+
+/*Este seria para cuando el link ya este visitado sino seria por default el morado*/
+a:visited{
+    color:rgb(39, 39, 53);
+}

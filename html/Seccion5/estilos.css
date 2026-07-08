@@ -7,9 +7,16 @@ h1{
 a:link{
     color:darkgreen;
     font-size: 90px;
+    text-decoration: none; 
 }
 
 /*Este seria para cuando el link ya este visitado sino seria por default el morado*/
 a:visited{
     color:rgb(39, 39, 53);
+    text-decoration: none; /* Esta text decoration = none quita la barra de abajo que caracteriza a un hipervinculo*/
+}
+
+/*Cuando nos ponemos sobre el link este es el evento de hoover*/
+a:hover{
+    text-decoration: line-through; /*Pone una linea en el medio cuando nos paramos sobre el hipervinculo*/
 }

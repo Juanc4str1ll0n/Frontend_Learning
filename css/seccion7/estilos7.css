@@ -1,0 +1,29 @@
+h1{
+    color: rgb(1, 1, 79);
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden; /*Solo se vera lo que cabe dentro del elemento, evita desbordes*/
+    background-color: rgb(110, 142, 217);
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float:left
+}
+
+li a{
+    display: block; /*Esta es para ocupar todo el ancho disponible aunque su contenido sea pequeno */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none; /*Esta es para quitarle el underscore a un link*/
+
+}
+
+li a:hover{
+    background-color: #1d3557;
+}
+
